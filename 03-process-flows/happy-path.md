@@ -1,7 +1,7 @@
 # Happy Path – KYC Onboarding Akışı
 
 **Proje:** Fintech Mobil Uygulama – Kullanıcı Onboarding & KYC Süreci  
-**Doküman Sahibi:** Business Analyst  
+**Doküman Sahibi:** Sudenur Bakır - Business Analyst  
 **Versiyon:** 1.0
 
 ## 1. Akış Özeti
