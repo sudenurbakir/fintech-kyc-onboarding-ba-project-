@@ -20,21 +20,14 @@
 
 ## 2. Paydaş Etki-İlgi Matrisi
 
-```mermaid
-quadrantChart
-    title Paydaş Etki - İlgi Matrisi
-    x-axis Düşük İlgi --> Yüksek İlgi
-    y-axis Düşük Etki --> Yüksek Etki
-    quadrant-1 Yakın Yönetim
-    quadrant-2 Aktif Dahil Et
-    quadrant-3 İzle
-    quadrant-4 Bilgilendir
-    Product Owner: [0.85, 0.9]
-    Business Analyst: [0.8, 0.85]
-    UX/UI Designer: [0.7, 0.65]
-    Mobile Developer: [0.55, 0.8]
-    Backend Developer: [0.5, 0.75]
-    Compliance Officer: [0.45, 0.8]
-    QA Engineer: [0.7, 0.55]
-    Customer Support: [0.4, 0.3]
-    Security Specialist: [0.4, 0.5]
+|                    | **Düşük İlgi**              | **Yüksek İlgi**                  |
+|--------------------|-----------------------------|----------------------------------|
+| **Yüksek Etki**    | **Bilgilendir**<br>• Compliance Officer<br>• Security Specialist | **Yakın Yönet / Aktif Dahil Et**<br>• Product Owner<br>• Business Analyst<br>• Mobile Developer<br>• Backend Developer |
+| **Düşük Etki**     | **İzle**<br>• Customer Support | **Bilgilendir / Destekle**<br>• UX/UI Designer<br>• QA Engineer |
+
+### Matris Açıklaması
+
+- **Yakın Yönet / Aktif Dahil Et** → Karar alma süreçlerine sürekli dahil edilir, düzenli toplantılar yapılır.
+- **Bilgilendir** → Önemli gelişmeler ve kararlar hakkında bilgilendirilir, onay alınır.
+- **Bilgilendir / Destekle** → İhtiyaç duyulduğunda dahil edilir, feedback alınır.
+- **İzle** → Genel bilgilendirme yeterlidir, detaylı takip gerekmez.
