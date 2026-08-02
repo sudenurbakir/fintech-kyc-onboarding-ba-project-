@@ -1,5 +1,3 @@
----
-
 ## 5. Detaylı Ekran Akışları
 
 ### 5.1 Telefon Numarası → OTP Akışı
