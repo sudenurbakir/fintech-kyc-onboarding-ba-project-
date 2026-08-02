@@ -1,5 +1,3 @@
----
-
 ## 7. Hata Durumları (Error States)
 
 ### 7.1 Telefon Numarası Ekranı
